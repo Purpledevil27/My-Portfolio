@@ -29,7 +29,7 @@ const Navbar1 = () => {
             <Container>
                 <Navbar.Brand href="/" className="d-flex">
                     <Nav.Link as={Link} to="/" onClick={() => setExpand(false)}>
-                        <strong className="purple"><AiOutlineHome size={42} style={{ marginBottom: "8px" }} /></strong>
+                        <strong className="purple"><AiOutlineHome size={34} style={{ marginBottom: "8px" }} /></strong>
                     </Nav.Link>
                 </Navbar.Brand>
                 <Navbar.Toggle

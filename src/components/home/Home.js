@@ -2,12 +2,13 @@ import { Container, Row, Col } from "react-bootstrap";
 import TypeWriter from "./Typewriter"
 import mypic from '../../assets/images/pass.jpg'
 import Section from "./Section"
-
+import Particle from '../Particle'
 
 const Home = () => {
     return (
         <section>
             <Container fluid className="home-section" id="home">
+                <Particle />
                 <Container className="home-content">
                     <Row>
                         <Col md={7} className="home-header">
