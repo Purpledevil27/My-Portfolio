@@ -47,10 +47,16 @@ const Particle = () => {
                         enable: false
                     },
                     move: {
-                        random: true,
-                        speed: 0.5,
+                        // random: true,
+                        // speed: 0.5,
+                        // direction: "right",
+                        // out_mode: "out"
                         direction: "right",
-                        out_mode: "out"
+                        enable: true,
+                        outMode: "out",
+                        random: true,
+                        speed: 1,
+                        straight: true,
                     }
                 },
                 interactivity: {
@@ -59,10 +65,10 @@ const Particle = () => {
                             enable: true,
                             mode: "bubble"
                         },
-                        onclick: {
-                            enable: true,
-                            mode: "repulse"
-                        }
+                        // onclick: {
+                        //     enable: true,
+                        //     mode: "repulse"
+                        // }
                     },
                     modes: {
                         bubble: {
@@ -71,10 +77,10 @@ const Particle = () => {
                             size: 0,
                             opacity: 0
                         },
-                        repulse: {
-                            distance: 400,
-                            duration: 4
-                        }
+                        // repulse: {
+                        //     distance: 400,
+                        //     duration: 4
+                        // }
                     },
                 },
                 retina_detect: true,

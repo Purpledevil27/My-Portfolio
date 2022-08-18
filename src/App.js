@@ -7,6 +7,7 @@ import Navbar1 from "./components/Navbar1"
 import Footer from "./components/Footer"
 import Scroll from "./components/Scroll"
 import Home from './components/home/Home'
+import About from "./components/about/About"
 
 const App = () => {
   const [load, setLoad] = useState(true)
@@ -26,6 +27,7 @@ const App = () => {
         <Scroll />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />

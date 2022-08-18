@@ -23,7 +23,7 @@ const Section = () => {
                             </b> and Tools like <b className="purple"> Git.</b>
                             <br />
                             <br />
-                            I strive to learn more everyday and help this community. Hoping to meet you.😃
+                            I strive to learn more daily and help this community for a better future. Hoping to meet you.😃
                         </p>
                     </Col>
                 </Row>
