@@ -8,6 +8,7 @@ import Footer from "./components/Footer"
 import Scroll from "./components/Scroll"
 import Home from './components/home/Home'
 import About from "./components/about/About"
+import Project from "./components/projects/Project"
 
 const App = () => {
   const [load, setLoad] = useState(true)
@@ -28,6 +29,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/project" element={<Project />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />

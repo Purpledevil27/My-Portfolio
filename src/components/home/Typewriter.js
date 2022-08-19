@@ -4,10 +4,8 @@ const TypeWriter = () => {
     return (
         <Typewriter
             options={{
-                strings: ['Welcome to my Portfolio.',
-                    'Thank you for stopping by!',
-                    'Take a look around AND',
-                    'Feel free to Contact me!'],
+                strings: ['Developer.',
+                    'Programmer.'],
                 autoStart: true,
                 loop: true,
             }}
