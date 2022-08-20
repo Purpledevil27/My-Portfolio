@@ -34,7 +34,7 @@ const Home = () => {
                                 src={mypic}
                                 alt="My Profile"
                                 className="img-fluid"
-                                style={{ maxHeight: "450px", borderRadius: "50%" }} />
+                                style={{ maxHeight: "375px", borderRadius: "50%" }} />
                         </Col>
                     </Row>
                 </Container>
