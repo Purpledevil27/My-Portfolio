@@ -1,12 +1,13 @@
 import { Container, Row, Col } from 'react-bootstrap'
 import Particle from '../Particle'
 import Map from './Map'
+import ContactForm from './ContactForm'
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai"
 import { FaLinkedinIn, FaFacebookSquare } from "react-icons/fa"
+
 const Contact = () => {
     return (
         <Container fluid className="contact-section">
-            <Particle />
             <Container >
                 <h1 className="contact-heading" style={{ textAlign: "center" }}>
                     My <strong className="purple">Contact </strong>details
@@ -25,8 +26,14 @@ const Contact = () => {
                         <h5>rkrahul2703@gmail.com</h5>
                     </Col>
                 </Row>
-                <Row class="map-responsive" style={{ paddingTop: '30px' }}>
-                    <Map />
+                <Row style={{ paddingTop: '30px' }}>
+                    <Col md={6} className="contact-about">
+                        <Map />
+                    </Col>
+                    <Col md={1} ></Col>
+                    <Col md={5} className="contact-form-about">
+                        <ContactForm />
+                    </Col>
                 </Row>
                 <Row >
                     <Col md={12} className="contact-about">
@@ -79,6 +86,7 @@ const Contact = () => {
                     </Col>
                 </Row>
             </Container>
+            <Particle />
         </Container>
     )
 }

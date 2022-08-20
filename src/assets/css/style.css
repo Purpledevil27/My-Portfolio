@@ -556,3 +556,10 @@ html {
   width: 100%;
   position: absolute;
 }
+
+/* Contact-Form */
+
+.contact-form-about {
+  padding-top: 25px;
+  color: white !important;
+}

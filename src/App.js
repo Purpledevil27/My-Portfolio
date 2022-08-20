@@ -29,12 +29,12 @@ const App = () => {
         <Navbar1 />
         <Scroll />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/project" element={<Project />} />
-          <Route path="/resume" element={<Resume />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="*" element={<Navigate to="/" />} />
+          <Route path="/My-Portfolio" element={<Home />} />
+          <Route path="/My-Portfolio/about" element={<About />} />
+          <Route path="/My-Portfolio/project" element={<Project />} />
+          <Route path="/My-Portfolio/resume" element={<Resume />} />
+          <Route path="/My-Portfolio/contact" element={<Contact />} />
+          <Route path="*" element={<Navigate to="/My-Portfolio" />} />
         </Routes>
         <Footer />
 

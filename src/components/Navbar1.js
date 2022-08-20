@@ -27,8 +27,8 @@ const Navbar1 = () => {
             className={navColor ? "sticky" : "navbar"}
         >
             <Container>
-                <Navbar.Brand href="/" className="d-flex">
-                    <Nav.Link as={Link} to="/" onClick={() => setExpand(false)}>
+                <Navbar.Brand href="/My-Portfolio" className="d-flex">
+                    <Nav.Link as={Link} to="/My-Portfolio" onClick={() => setExpand(false)}>
                         <strong className="purple"><AiOutlineHome size={34} style={{ marginBottom: "8px" }} /></strong>
                     </Nav.Link>
                 </Navbar.Brand>
@@ -48,7 +48,7 @@ const Navbar1 = () => {
                         <Nav.Item>
                             <Nav.Link
                                 as={Link}
-                                to="/about"
+                                to="/My-Portfolio/about"
                                 onClick={() => setExpand(false)}
                             >
                                 <AiOutlineUser style={{ marginBottom: "7px" }} /> About
@@ -58,7 +58,7 @@ const Navbar1 = () => {
                         <Nav.Item>
                             <Nav.Link
                                 as={Link}
-                                to="/project"
+                                to="/My-Portfolio/project"
                                 onClick={() => setExpand(false)}
                             >
                                 <AiOutlineFundProjectionScreen
@@ -71,7 +71,7 @@ const Navbar1 = () => {
                         <Nav.Item>
                             <Nav.Link
                                 as={Link}
-                                to="/resume"
+                                to="/My-Portfolio/resume"
                                 onClick={() => setExpand(false)}
                             >
                                 <CgFileDocument style={{ marginBottom: "5px" }} /> Resume
@@ -81,7 +81,7 @@ const Navbar1 = () => {
                         <Nav.Item>
                             <Nav.Link
                                 as={Link}
-                                to="/contact"
+                                to="/My-Portfolio/contact"
                                 onClick={() => setExpand(false)}
                             >
                                 <MdMessage
