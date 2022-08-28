@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react"
-import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom'
+import { HashRouter as Router, Route, Routes, Navigate } from 'react-router-dom'
 import Preloader from "../src/components/Preload"
 import "bootstrap/dist/css/bootstrap.min.css"
 import './assets/css/style.css'
@@ -29,12 +29,12 @@ const App = () => {
         <Navbar1 />
         <Scroll />
         <Routes>
-          <Route path="/My-Portfolio" element={<Home />} />
-          <Route path="/My-Portfolio/about" element={<About />} />
-          <Route path="/My-Portfolio/project" element={<Project />} />
-          <Route path="/My-Portfolio/resume" element={<Resume />} />
-          <Route path="/My-Portfolio/contact" element={<Contact />} />
-          <Route path="*" element={<Navigate to="/My-Portfolio" />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/project" element={<Project />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />
 

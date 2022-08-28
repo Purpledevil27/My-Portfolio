@@ -14,7 +14,7 @@ const About = () => {
                 <h1 style={{ fontSize: "2.1em", paddingBottom: "5px", textAlign: "center" }}>My name is
                     <strong className="purple"> Rahul Kumar.</strong>
                 </h1>
-                <h5 style={{ textAlign: "center" }}> I am from<strong className="purple"> Muzaffarpur, Bihar </strong> and currenly a Final Year Undergrad Student at <strong className="purple">IIT Patna.</strong></h5>
+                <h5 style={{ textAlign: "center" }}> I am from<strong className="purple"> Muzaffarpur, Bihar </strong> and currently a Final Year Undergrad Student at <strong className="purple">IIT Patna.</strong></h5>
                 <Row style={{ justifyContent: "center", padding: "10px" }}>
                     <Col
                         md={7}
