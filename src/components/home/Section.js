@@ -15,6 +15,12 @@ const Section = () => {
                             <br />I do <b className="purple"> Competitive programming </b> and <b className="purple"> Web development. </b>
                             <br />
                             <br />
+                            I have<b className="purple"> solved 700+ problems</b> on different platforms like
+                            <b className="purple"> LeetCode, CodeForces, CodeChef</b> and<b className="purple"> GeeksForGeeks</b>{/* and have <b className="purple"> contest rating </b> of <b className="purple">
+                                1641 </b> on LeetCode, <b className="purple">1188</b> on CodeForces, <b className="purple">1741</b> on CodeChef
+                            . */}
+                            <br />
+                            <br />
                             I have experience in
                             <b className="purple"> C++, Javascript language, NodeJS,</b> Databases like <b className="purple"> MySQL, MongoDB, </b> Frameworks like <b className="purple">
                                 ExpressJS, Mongoose, Bootstrap,
@@ -23,12 +29,12 @@ const Section = () => {
                             </b> and Tools like <b className="purple"> Git.</b>
                             <br />
                             <br />
-                            I strive to learn more daily and help this community for a better future. Hoping to meet you.😃
+                            I strive to learn more daily and help this community for a better future. <b className="purple">Check other sections</b> on the navbar to know more about me. Hoping to meet you.😃
                         </p>
                     </Col>
                 </Row>
             </Container>
-        </Container>
+        </Container >
     )
 }
 

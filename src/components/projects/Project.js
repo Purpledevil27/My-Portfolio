@@ -25,18 +25,9 @@ const Project = () => {
                 <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
                     <Col md={4} className="project-card">
                         <ProjectCard
-                            imgPath={Weatherapp}
-                            title="Weather-App"
-                            description="Check weather condition either by giving location access or entering the city name. Using asynchronous function by fetching data from openweathermap.com API using fetch, useEffect & useState of ReactJS. Also features like background image changes with time."
-                            ghLink="https://github.com/Purpledevil27/weather-app"
-                            demoLink="https://purpledevil27.github.io/weather-app/"
-                        />
-                    </Col>
-                    <Col md={4} className="project-card">
-                        <ProjectCard
                             imgPath={secret}
-                            title="Secrets"
-                            description="Don't keep your secrets, share them anonymously. A web application where you can submit your secret without revealing your identity. Google & Facebook login & cookies & sessions provided with OAuth 2.0 authentication and passport.js. Used MongoDB atlas for database and deployed on heroku app. Technical skills used are NodeJS, ExpressJS, EJS, MongoDB & Mongoose."
+                            title="IITP Confession Page"
+                            description="Everyone has a story to tell. This is a web application where you can submit your secret without revealing your identity. Google & Facebook login & cookies & sessions provided with OAuth 2.0 authentication and passport.js. Used MongoDB atlas for database and deployed on heroku app. Technical skills used are NodeJS, ExpressJS, EJS, MongoDB & Mongoose."
                             ghLink="https://github.com/Purpledevil27/Secrets"
                             demoLink="https://rocky-plateau-17810.herokuapp.com/"
                         />
@@ -50,7 +41,15 @@ const Project = () => {
                             demoLink=""
                         />
                     </Col>
-
+                    <Col md={4} className="project-card">
+                        <ProjectCard
+                            imgPath={Weatherapp}
+                            title="Weather-App"
+                            description="(Work in progress) Check weather condition either by giving location access or entering the city name. Using asynchronous function by fetching data from openweathermap.com API using fetch, useEffect & useState of ReactJS. Also features like background image changes with time and weather condition."
+                            ghLink="https://github.com/Purpledevil27/weather-app"
+                            demoLink="https://purpledevil27.github.io/weather-app/"
+                        />
+                    </Col>
                     <Col md={4} className="project-card">
                         <ProjectCard
                             imgPath={tasklistls}

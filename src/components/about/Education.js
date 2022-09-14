@@ -12,7 +12,7 @@ const Education = () => {
                         <li className="about-activity">
                             <h6 style={{ color: "	#CBC3E3" }}><FaAngleDoubleRight style={{ marginBottom: "5px" }} />July 2019 - June 2023</h6>
                             <h4><strong className='purple'>Indian Institute of Technology </strong>Patna, India</h4>
-                            <h5>Bachelor of Technology, Civil Engineering, GPA-8.24</h5>
+                            <h5>Bachelor of Technology, Civil Engineering, CPI-8.24</h5>
                         </li>
                         <br />
                         <li className="about-activity">
