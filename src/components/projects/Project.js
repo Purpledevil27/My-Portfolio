@@ -91,8 +91,8 @@ const Project = () => {
                             imgPath={netflix}
                             title="Netflix Clone"
                             description="Netlix Clone website made with HTML & CSS."
-                            ghLink="https://rocky-plateau-netflix-clone.netlify.app/"
-                            demoLink="https://purpledevil27.github.io/Netflix-Clone/"
+                            ghLink="https://github.com/Purpledevil27/Netflix-Clone"
+                            demoLink="https://rocky-plateau-netflix-clone.netlify.app/"
                         />
                     </Col>
                     <Col md={4} className="project-card">
