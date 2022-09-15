@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/My-Portfolio/static/css/main.f6321945.css",
-    "main.js": "/My-Portfolio/static/js/main.ea20edde.js",
+    "main.css": "/My-Portfolio/static/css/main.acffbca0.css",
+    "main.js": "/My-Portfolio/static/js/main.eaf88ada.js",
     "static/js/787.128fc6e9.chunk.js": "/My-Portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/Weather-app1.png": "/My-Portfolio/static/media/Weather-app1.2d758ab7fa9a0e176c1a.png",
     "static/media/NetflixClone1.png": "/My-Portfolio/static/media/NetflixClone1.4b323b4b5ebbd39ce24a.png",
@@ -16,12 +16,12 @@
     "static/media/rahul.pdf": "/My-Portfolio/static/media/rahul.b21cb96cc88bf1eb9c78.pdf",
     "static/media/three-dots.svg": "/My-Portfolio/static/media/three-dots.c2eacc54ddf466a9e354.svg",
     "index.html": "/My-Portfolio/index.html",
-    "main.f6321945.css.map": "/My-Portfolio/static/css/main.f6321945.css.map",
-    "main.ea20edde.js.map": "/My-Portfolio/static/js/main.ea20edde.js.map",
+    "main.acffbca0.css.map": "/My-Portfolio/static/css/main.acffbca0.css.map",
+    "main.eaf88ada.js.map": "/My-Portfolio/static/js/main.eaf88ada.js.map",
     "787.128fc6e9.chunk.js.map": "/My-Portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6321945.css",
-    "static/js/main.ea20edde.js"
+    "static/css/main.acffbca0.css",
+    "static/js/main.eaf88ada.js"
   ]
 }
