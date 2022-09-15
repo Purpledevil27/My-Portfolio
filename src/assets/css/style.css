@@ -269,7 +269,7 @@ html {
   .heading,
   .heading-name {
     padding: 0 !important;
-    font-size: xx-large !important;
+    font-size: x-large !important;
   }
   .Typewriter__wrapper {
     font-size: 1.4em !important;
@@ -278,6 +278,11 @@ html {
   }
   .Typewriter__cursor {
     display: none !important;
+  }
+  .profile-photo {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 0 !important;
   }
 }
 
@@ -322,7 +327,12 @@ html {
     text-align: center !important;
   }
   .home-about-section {
-    font-size: small !important;
+    padding-top: 0 !important;
+    font-size: xx-small !important;
+  }
+
+  .home-about-body {
+    text-align: center !important;
   }
 
   .footer-body {

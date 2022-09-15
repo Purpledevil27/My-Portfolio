@@ -31,7 +31,7 @@ const Home = () => {
                             </div>
                         </Col>
 
-                        <Col md={6} style={{ paddingTop: 30, paddingBottom: 20, textAlign: "center" }}>
+                        <Col md={6} style={{ paddingTop: 30, paddingBottom: 20, textAlign: "center" }} className="profile-photo">
                             <img
                                 src={mypic}
                                 alt="My Profile"
