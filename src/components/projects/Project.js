@@ -88,20 +88,19 @@ const Project = () => {
                     </Col>
                     <Col md={4} className="project-card">
                         <ProjectCard
-                            imgPath={netflix}
-                            title="Netflix Clone"
-                            description="Netlix Clone website made with HTML & CSS."
-                            ghLink="https://github.com/Purpledevil27/Netflix-Clone"
-                            demoLink="https://rocky-plateau-netflix-clone.netlify.app/"
-                        />
-                    </Col>
-                    <Col md={4} className="project-card">
-                        <ProjectCard
                             imgPath={simon}
                             title="Simon Game"
                             description="Simon game is an electronic game of short-term memory skill. It creates a series of tones and lights and requires a user to repeat the sequence. Available only on desktop. Technical Skills used are HTML, CSS & Javascript"
                             ghLink="https://github.com/Purpledevil27/Simon-game"
                             demoLink="https://purpledevil27.github.io/Simon-game/"
+                        />
+                    </Col>
+                    <Col md={4} className="project-card">
+                        <ProjectCard
+                            imgPath={netflix}
+                            title="Netflix Clone"
+                            description="Netlix Clone website made with HTML & CSS."
+                            ghLink="https://github.com/Purpledevil27/Netflix-Clone"
                         />
                     </Col>
                 </Row>
