@@ -91,7 +91,7 @@ const Project = () => {
                             imgPath={netflix}
                             title="Netflix Clone"
                             description="Netlix Clone website made with HTML & CSS."
-                            ghLink="https://github.com/Purpledevil27/Netflix-Clone"
+                            ghLink="https://rocky-plateau-netflix-clone.netlify.app/"
                             demoLink="https://purpledevil27.github.io/Netflix-Clone/"
                         />
                     </Col>
