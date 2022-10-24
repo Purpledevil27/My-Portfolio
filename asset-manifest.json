@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/My-Portfolio/static/css/main.acffbca0.css",
-    "main.js": "/My-Portfolio/static/js/main.17993194.js",
+    "main.js": "/My-Portfolio/static/js/main.7bdb49af.js",
     "static/js/787.128fc6e9.chunk.js": "/My-Portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/Weather-app1.png": "/My-Portfolio/static/media/Weather-app1.2d758ab7fa9a0e176c1a.png",
     "static/media/NetflixClone1.png": "/My-Portfolio/static/media/NetflixClone1.4b323b4b5ebbd39ce24a.png",
     "static/media/pass.jpg": "/My-Portfolio/static/media/pass.fb49cbb7bea3dede5f3e.jpg",
     "static/media/Movie-app1.png": "/My-Portfolio/static/media/Movie-app1.78a874207f65ae8ac218.png",
     "static/media/qrcode1.png": "/My-Portfolio/static/media/qrcode1.90cdfc07b2b759adfdc3.png",
+    "static/media/IITPExpensemanager.png": "/My-Portfolio/static/media/IITPExpensemanager.768c4bb01d8854ffc81e.png",
     "static/media/Secret1.png": "/My-Portfolio/static/media/Secret1.c57e24cfa15f16077edd.png",
     "static/media/Pingpong1.png": "/My-Portfolio/static/media/Pingpong1.b9a02ac02171cd01b97b.png",
     "static/media/SimonGame1.png": "/My-Portfolio/static/media/SimonGame1.a15033504c884db4fd1e.png",
@@ -17,11 +18,11 @@
     "static/media/three-dots.svg": "/My-Portfolio/static/media/three-dots.c2eacc54ddf466a9e354.svg",
     "index.html": "/My-Portfolio/index.html",
     "main.acffbca0.css.map": "/My-Portfolio/static/css/main.acffbca0.css.map",
-    "main.17993194.js.map": "/My-Portfolio/static/js/main.17993194.js.map",
+    "main.7bdb49af.js.map": "/My-Portfolio/static/js/main.7bdb49af.js.map",
     "787.128fc6e9.chunk.js.map": "/My-Portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.acffbca0.css",
-    "static/js/main.17993194.js"
+    "static/js/main.7bdb49af.js"
   ]
 }
