@@ -15,7 +15,7 @@ const Section = () => {
                             <br />I do <b className="purple"> Competitive programming </b> and <b className="purple"> Web development. </b>
                             <br />
                             <br />
-                            I have<b className="purple"> solved 700+ problems</b> on different platforms like
+                            I have<b className="purple"> solved 800+ problems</b> on different platforms like
                             <b className="purple"> LeetCode, CodeForces, CodeChef</b> and<b className="purple"> GeeksForGeeks</b>{/* and have <b className="purple"> contest rating </b> of <b className="purple">
                                 1641 </b> on LeetCode, <b className="purple">1188</b> on CodeForces, <b className="purple">1741</b> on CodeChef
                             . */}
