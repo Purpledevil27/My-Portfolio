@@ -10,6 +10,7 @@ import simon from "../../assets/images/project-images/SimonGame1.png"
 import diary from "../../assets/images/project-images/Diary-entry1.png"
 import secret from "../../assets/images/project-images/Secret1.png"
 import movie from "../../assets/images/project-images/Movie-app1.png"
+import expense from "../../assets/images/project-images/IITPExpensemanager.png"
 
 const Project = () => {
     return (
@@ -23,6 +24,15 @@ const Project = () => {
                     Here are a few major & mini projects I've worked on recently.
                 </p>
                 <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+                    <Col md={4} className="project-card">
+                        <ProjectCard
+                            imgPath={expense}
+                            title="IITP Expense Manager"
+                            description="(Work in progress) This is IITP clubs expenses management system and Tracker Web App to manage all the Expenditure of clubs and conduct fests and events efficiently in college. You can add and delete Expenses easily with different categories. Clubs can track Daily and upto 3 Months of their Expenses which makes it easier for them to plan their Expenses and with the help of the charts, data could be visualized far more conveniently."
+                            ghLink="https://github.com/Purpledevil27/IITP-Club-Expense-Manager"
+                            demoLink="http://iitp-clubs-expenses-management.herokuapp.com/"
+                        />
+                    </Col>
                     <Col md={4} className="project-card">
                         <ProjectCard
                             imgPath={secret}
