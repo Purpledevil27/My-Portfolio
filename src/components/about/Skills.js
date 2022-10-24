@@ -27,9 +27,9 @@ const Skills = () => {
             <Col xs={4} md={2} className="tech-icons">
                 <DiMongodb /><h6>MongoDB</h6>
             </Col>
-            <Col xs={4} md={2} className="tech-icons">
+            {/* <Col xs={4} md={2} className="tech-icons">
                 <SiFirebase /><h6>Firebase</h6>
-            </Col>
+            </Col> */}
             <Col xs={4} md={2} className="tech-icons">
                 <SiBootstrap /><h6>Bootstrap</h6>
             </Col>
