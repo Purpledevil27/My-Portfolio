@@ -17,7 +17,7 @@ const Education = () => {
                         <br />
                         <li className="about-activity">
                             <h6><FaAngleDoubleRight style={{ marginBottom: "5px" }} />May 2017 - April 2019</h6>
-                            <h4><strong className='purple'>Narayana Academy </strong>Hyderabad, India</h4>
+                            <h4><strong className='purple'>Narayana Junior College </strong>Hyderabad, India</h4>
                             <h5>Senior Secondary High School, PCM, Percentage-96.4%</h5>
                         </li>
                         <br />
